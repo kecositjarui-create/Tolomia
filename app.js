@@ -1,7 +1,5 @@
 const express = require('express');
 const app = express();
-
-//to set ejs templating engine
 app.set('view engine', 'ejs');
 
 app.use(express.urlencoded({extended:true}));
